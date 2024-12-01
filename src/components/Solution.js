@@ -14,6 +14,7 @@ function Solution() {
             <br></br>
             <input
                 type='text'
+                placeholder='Hello n!'
                 value={name}
                 onChange={(e) => {setName(e.target.value)}}
             />
