@@ -14,12 +14,12 @@ function Solution() {
             <br></br>
             <input
                 type='text'
-                placeholder='Hello n!'
+                // placeholder='Hello n!'
                 value={name}
                 onChange={(e) => {setName(e.target.value)}}
             />
             <br></br>
-            <h3>{name}</h3>
+            <h3>{"Hello"+ name + "!"}</h3>
 
         </div>
 
