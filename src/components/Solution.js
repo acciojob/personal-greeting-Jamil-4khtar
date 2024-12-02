@@ -18,7 +18,7 @@ function Solution() {
                 onChange={(e) => {setName(e.target.value)}}
             />
             <br></br>
-            <p>Hello {name}!</p>
+            {name && <p>Hello {name}!</p>}
 
         </div>
 
